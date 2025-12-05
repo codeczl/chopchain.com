@@ -1,0 +1,91 @@
+=== 全局查找替换列表 ===
+
+使用编辑器的"在文件中查找并替换"功能（Ctrl+Shift+H 或 Cmd+Shift+H）
+
+=== 第一组：品牌名称 ===
+查找: Chop Chains
+替换: Chop Chains
+
+查找: chop chains
+替换: chop chains
+
+查找: CHOP CHAINS
+替换: CHOP CHAINS
+
+=== 第二组：域名 ===
+查找: chopchains.com
+替换: chopchains.com
+
+查找: ChopChains.com
+替换: ChopChains.com
+
+查找: https://chopchains.com
+替换: https://chopchains.com
+
+=== 第三组：开发商/公司 ===
+查找: Alexis Gelin
+替换: [Chop Chains 开发商名称]
+
+=== 第四组：游戏相关 ===
+查找: puzzle
+替换: [Chop Chains 游戏类型]
+
+查找: puzzle games
+替换: [相似游戏类型]
+
+查找: More Puzzle Games
+替换: More Games Like Chop Chains
+
+=== 第五组：文件名和路径 ===
+查找: chop-chains-og.png
+替换: chop-chains-og.png
+
+查找: chop-chains-logo.webp
+替换: chop-chains-logo.webp
+
+=== 第六组：特定文案 ===
+查找: Your comprehensive resource for Chop Chains
+替换: Your comprehensive resource for Chop Chains
+
+查找: Chop Chains overview, guides and more kart games
+替换: Chop Chains guides, tips and more games
+
+查找: Play Chop Chains online
+替换: Play Chop Chains online
+
+查找: Unofficial Chop Chains fan site
+替换: [Official/Unofficial] Chop Chains site
+
+=== 第七组：Schema 和 SEO ===
+查找: "name": "Chop Chains"
+替换: "name": "Chop Chains"
+
+查找: "description": "Chop Chains is
+替换: "description": "Chop Chains is
+
+=== 注意事项 ===
+1. 替换前先备份整个项目
+2. 使用"区分大小写"选项
+3. 逐组替换，每组替换后检查结果
+4. 某些特定内容需要手动修改，不能简单替换
+5. 替换后运行网站，检查是否有遗漏
+
+=== 需要手动修改的文件 ===
+1. index.html - 游戏 iframe src（第 193 行）
+2. backup_classes.json - 游戏数据
+3. backup_categories.json - 分类描述
+4. assets/img/ - 所有图片文件
+5. README.md - 完整重写
+6. CONTRIBUTING.md - 项目信息
+7. ads.txt - 广告发布商 ID
+
+=== 需要删除的文件 ===
+1. duck-to-ducky.py - 不需要的脚本
+2. assets/img/club-penguin-dance.gif - 不相关图片
+3. assets/img/pumpkingif-halloween.gif - 不相关图片
+4. assets/img/squiddy.gif - 不相关图片
+
+=== 需要新增的文件 ===
+1. assets/img/chop-chains-logo.webp - 主 logo
+2. assets/img/chop-chains-icon.png - 小图标
+3. assets/img/chop-chains-og.png - 社交分享图
