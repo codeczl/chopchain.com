@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chopchains.com/sitemap.xml
+
+# Allow indexing of main pages
+Allow: /index.html
+Allow: /game.html
+Allow: /about.html
+Allow: /leaderboard.html
+Allow: /advertise.html
+
+# Allow game pages
+Allow: /g4m3s/
+
+# Allow blog
+Allow: /blog/
+
+# Allow links
+Allow: /links/
+
+# Allow more pages
+Allow: /more/
+Allow: /more/index.html
+Allow: /more/apps.html
+Allow: /more/game_help.html
+Allow: /more/takedown.html
+Allow: /more/discord.html
+Allow: /more/privacy.html
+Allow: /more/tab-cloak.html
+Allow: /more/cache.html
+Allow: /more/streak.html
+
+# Disallow admin or sensitive pages if any
+Disallow: /more/blank.html
