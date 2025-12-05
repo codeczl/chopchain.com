@@ -262,9 +262,9 @@ async function hydrateAppPage() {
   canonicalLink.href = `https://chopchains.com/g4m3s/?title=${appData.title}`;
   document.head.appendChild(canonicalLink);
 
-  window.document.title =
-    appTitle.replaceAll("-", " ") +
-    ` - ${window.location.hostname.split(".")[0]}`;
+  // Set title to "Play [Game Name] Online"
+  const cleanTitle = appTitle.replaceAll("-", " ");
+  window.document.title = `Play ${cleanTitle} Online`;
 
   // Update meta description using app.desc
   if (appData.desc) {
